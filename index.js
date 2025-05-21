@@ -11,7 +11,7 @@ const app = express();
 
 // Middleware
 app.use(express.json());
-app.use(cors({ origin: "https://sakthi21petwebsite.netlify.app/", credentials: true }));
+app.use(cors({ origin: "https://sakthi21petwebsite.netlify.app", credentials: true }));
 
 
 // Routes
